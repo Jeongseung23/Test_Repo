@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-
+This is error line. Please Report to Issue
 #define N_NUMBERS  10
 
 void initialize_array(int A[], int size);
@@ -31,7 +31,7 @@ int main() {
 
 void initialize_array(int A[], int size) {
 	for (int i = 0; i < size; i++) {
-		A[i] = rand() % 100;  // 0~99 »çÀÌÀÇ ³­¼ö
+		A[i] = rand() % 100;  // 0~99 Â»Ã§Ã€ÃŒÃ€Ã‡ Â³Â­Â¼Ã¶
 	}
 }
 void print_array(int A[], int size) {
